@@ -1,0 +1,47 @@
+body {
+    font-family: 'Merriweather', sans-serif;
+    color: #0e0d0d;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/raud-alert-warning-backgrounds-your-data-information-security_1017-45280.jpg?t=st=1735642706~exp=1735646306~hmac=72fc8b7b10437d1b4684953af06e23109fb247e842d8e03807ed0dad80362f83&w=1060'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh; /* Ensures the background covers the entire viewport height */
+    width: 100vw; /* Ensures the background covers the entire viewport width */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f43154;
+    color: #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navbar button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.navbar button:hover {
+    background-color: #f65656;
+}
